@@ -17,7 +17,7 @@ and run these commands.
 
 ```bash
 # first set up a new app
-heroku create --stack=cedar --buildpack https://github.com/begriffs/postgrest-heroku.git
+heroku create --stack=cedar --buildpack https://github.com/mikesmayer/postgrest-heroku
 
 # now fill in the values specific to your database
 heroku config:set AUTH_ROLE=foo
